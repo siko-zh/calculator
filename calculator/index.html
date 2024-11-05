@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <input id="expression" type="text" class="calculator-screen" disabled>
+    <div id="numbers">
+        <button onclick="addToExpression('1')">1</button>
+        <button onclick="addToExpression('2')">2</button>
+        <button onclick="addToExpression('3')">3</button>
+        <br>
+        <button onclick="addToExpression('4')">4</button>
+        <button onclick="addToExpression('5')">5</button>
+        <button onclick="addToExpression('6')">6</button>
+        <br>
+        <button onclick="addToExpression('7')">7</button>
+        <button onclick="addToExpression('8')">8</button>
+        <button onclick="addToExpression('9')">9</button>
+    </div>
+
+    <div id="operators">
+        <button onclick="addToExpressionOperation('+')">+</button>
+        <button onclick="addToExpressionOperation('-')">-</button>
+        <button onclick="addToExpressionOperation('x')">x</button>
+        <button onclick="addToExpressionOperation(':')">:</button>
+        <button onclick="calculate()">=</button>
+    </div>
+</body>
+</html>
